@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Output reports & local test data
+report.csv
+results.csv
+output*.csv
+*.log
+.DS_Store
+Thumbs.db
