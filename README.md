@@ -1,11 +1,11 @@
-# PHP CVE Version Checker & Passive Fingerprinter (`php2shell_checker`)
+# php2shell-checker — PHP RCE Vulnerability Checker & Recon Tool
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Design](https://img.shields.io/badge/Design-Zero%20Dependency-brightgreen.svg)]()
-[![Type](https://img.shields.io/badge/Type-Passive%20Triage-blue.svg)]()
+[![Type](https://img.shields.io/badge/Type-Passive%20Recon%20%26%20Checker-blue.svg)]()
 
-A lightweight, non-intrusive triage tool and passive HTTP fingerprinter designed to check target assets against PHP vulnerabilities (**CVE-2026-109618** and **CVE-2026-109619**).
+A lightweight, non-intrusive PHP RCE vulnerability checker and passive reconnaissance tool designed to quickly triage target assets against critical PHP flaws (**CVE-2026-109618** and **CVE-2026-109619**).
 
 Built entirely using Python's standard library (zero external dependencies required), this tool evaluates local PHP CLI runtimes, predefined asset inventories (CSV/TXT), or live HTTP/HTTPS response headers with minimal network overhead.
 

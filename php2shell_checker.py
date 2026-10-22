@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-PHP CVE version triage with optional HTTP version fingerprinting. Checks CVE-2026-109618 and CVE-2026-109619 using configured version thresholds.
+PHP RCE vulnerability checker & recon tool with optional passive HTTP version fingerprinting.
+Checks target assets against CVE-2026-109618 and CVE-2026-109619 using configured version thresholds.
 """
 
 import argparse
@@ -246,7 +247,7 @@ def save_csv(rows, output_path, auto_detect, insecure=False):
 def main():
     parser = argparse.ArgumentParser(
         prog="php2shell_checker.py",
-        description=("PHP CVE version checker for CVE-2026-109618 and CVE-2026-109619."),
+        description=("PHP RCE vulnerability checker for CVE-2026-109618 and CVE-2026-109619."),
         formatter_class=argparse.RawTextHelpFormatter,
         epilog="""Examples:
   # Show this help
